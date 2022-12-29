@@ -1,0 +1,9 @@
+export module extmod2;
+
+import std;
+
+export struct Foo {
+    std::string bar;
+};
+
+export auto foo2() -> Foo;
