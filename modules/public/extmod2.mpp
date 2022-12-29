@@ -1,6 +1,6 @@
 export module extmod2;
 
-import std;
+import <string>;
 
 export struct Foo {
     std::string bar;

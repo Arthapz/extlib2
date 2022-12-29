@@ -1,6 +1,7 @@
 export module extmod3;
 
-import std;
+import <string>;
+
 import extmod2;
 
 export auto foo3() -> std::string;
